@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32530 MB
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32660 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,147 +11,135 @@ C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/college/2021 summer/Git/cs579project/Maze
+D:/cs579/groupproject/cs579project/Maze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63976
-Successfully changed project path to: D:/college/2021 summer/Git/cs579project/Maze
-D:/college/2021 summer/Git/cs579project/Maze
+54013
+Successfully changed project path to: D:/cs579/groupproject/cs579project/Maze
+D:/cs579/groupproject/cs579project/Maze
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 17.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/college/2021 summer/Git/cs579project/Maze/Assets
+[Subsystems] Discovering subsystems at path D:/cs579/groupproject/cs579project/Maze/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   
-    VRAM:     8044 MB
-    Driver:   27.21.14.6663
+    VRAM:     8043 MB
+    Driver:   27.21.14.6089
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001571 seconds.
+Registered in 0.001480 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 18.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.773 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000455 seconds.
+Registered in 0.000389 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002688C5A6020 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026888237020 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688883F400 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026888169E00 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688C810A30 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688D096040 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026888237020 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026887FA06D0 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
+- Completed reload, in  0.603 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
 System memory in use after: 57.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 1.335500 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.113800 ms  DeleteObjects: 0.065000 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1566.
+Total: 1.300900 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.099900 ms  DeleteObjects: 0.055600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/50138871382_df4e013d13_o.jpg
-  artifactKey: Guid(1ddbb6ca9e851e14fa0156653d47a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/50138871382_df4e013d13_o.jpg using Guid(1ddbb6ca9e851e14fa0156653d47a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c4ee72583dabdd4514170d2f0ca7c9') in 0.067647 seconds
-  Import took 0.069215 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.024514 seconds
+  Import took 0.026021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/doughnutUnity.blend
-  artifactKey: Guid(3210be2f7894fb14ba363039e8d83743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/doughnutUnity.blend using Guid(3210be2f7894fb14ba363039e8d83743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fa704e134430fdb6410e768ed8b171') in 0.266466 seconds
-  Import took 0.267963 seconds .
+  Time since last request: 106.082102 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(fcaca0b1952c203439d3558cca874b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(fcaca0b1952c203439d3558cca874b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808008b018ae2e7f61b9302c957196ba') in 0.007554 seconds
+  Import took 0.009462 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000686 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000266FF1B2090 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688DCB36B0 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688DCB36B0 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688DCB36B0 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688853D020 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688DCB36B0 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026887EFE010 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002688D8E1030 doesn't match image D:\cs579\groupproject\cs579project\Maze\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 57.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1570.
+Total: 1.648100 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.142300 ms  DeleteObjects: 0.310700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(ba4c4a11768522143be8c738c75b4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(ba4c4a11768522143be8c738c75b4f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949100265c65c3edcb313e29bef785ee') in 0.005358 seconds
-  Import took 0.006889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.497557 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.005440 seconds
-  Import took 0.007054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.719627 seconds.
-  path: Packages/com.unity.ide.rider
-  artifactKey: Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider using Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d02623396ab86594f3405d33b9714f') in 0.006106 seconds
-  Import took 0.007816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132541 seconds.
-  path: Packages/com.unity.ide.rider/package.json
-  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff96f7b61e94a0dc9b975679be81ead9') in 0.020627 seconds
-  Import took 0.022556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.614141 seconds.
-  path: Assets/Teleport.cs
-  artifactKey: Guid(a86f937190e443f4f8b055720f81ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Teleport.cs using Guid(a86f937190e443f4f8b055720f81ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda3acbed45bd4e79eb6d9281e0eaeb1') in 0.007074 seconds
-  Import took 0.008696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.483735 seconds.
-  path: Assets/FlyCamera.cs
-  artifactKey: Guid(6eedb4d145d56db4681e9978035c3fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlyCamera.cs using Guid(6eedb4d145d56db4681e9978035c3fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abf7414dbe0ff96bb78da67a2f8085') in 0.005358 seconds
-  Import took 0.006899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021318 seconds.
-  path: Assets/FlyCamera.cs
-  artifactKey: Guid(6eedb4d145d56db4681e9978035c3fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlyCamera.cs using Guid(6eedb4d145d56db4681e9978035c3fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abf7414dbe0ff96bb78da67a2f8085') in 0.001707 seconds
-  Import took 0.003364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.927458 seconds.
-  path: Assets/ObjectMovement.cs
-  artifactKey: Guid(a2d2dfc0ef469574a994d0c323241de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ObjectMovement.cs using Guid(a2d2dfc0ef469574a994d0c323241de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9aba05bc8071c244f935beffa13830') in 0.017045 seconds
-  Import took 0.018906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.717560 seconds.
-  path: Assets/Rayscript.cs
-  artifactKey: Guid(9377cf45de717304eb02fdcaff98a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rayscript.cs using Guid(9377cf45de717304eb02fdcaff98a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d08eacda435c03f17caf69970c7948') in 0.004850 seconds
-  Import took 0.006417 seconds .
+  Time since last request: 66.906997 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(fcaca0b1952c203439d3558cca874b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(fcaca0b1952c203439d3558cca874b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a79b8c84ff9cf27294c59f9d4086dc') in 0.013165 seconds
+  Import took 0.014696 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
